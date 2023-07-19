@@ -1,0 +1,539 @@
+﻿[
+    //Karabons
+    {
+        "name": "Pommy",
+        "type": "toggle",
+        "img": "images/Pommy.png",
+        "codes": "pommy"
+    },
+    {
+        "name": "Ceedrun",
+        "type": "toggle",
+        "img": "images/Ceedrun.png",
+        "codes": "ceedrun, block"
+    },
+    {
+        "name": "Elifan",
+        "type": "toggle",
+        "img": "images/Elifan.png",
+        "codes": "elifan, push"
+    },
+    {
+        "name": "P.Fangs",
+        "type": "toggle",
+        "img": "images/PFangs.png",
+        "codes": "pfangs, d1key"
+    },
+    {
+        "name": "Sharkun",
+        "type": "toggle",
+        "img": "images/Sharkun.png",
+        "codes": "sharkun"
+    },
+    {
+        "name": "Th.Liger",
+        "type": "toggle",
+        "img": "images/ThLiger.png",
+        "codes": "thliger"
+    },
+    {
+        "name": "Kai-Man",
+        "type": "toggle",
+        "img": "images/Kai-Man.png",
+        "codes": "kaiman"
+    },
+    {
+        "name": "TwinDrag",
+        "type": "toggle",
+        "img": "images/TwinDrag.png",
+        "codes": "twindrag, fireup"
+    },
+    {
+        "name": "P.Nucklz",
+        "type": "toggle",
+        "img": "images/PNucklz.png",
+        "codes": "pnucklz, kick"
+    },
+    {
+        "name": "P.Sea",
+        "type": "toggle",
+        "img": "images/PSea.png",
+        "codes": "psea, d2key"
+    },
+    {
+        "name": "ToughGuy",
+        "type": "toggle",
+        "img": "images/ToughGuy.png",
+        "codes": "toughguy, throw"
+    },
+    {
+        "name": "P.Beast",
+        "type": "toggle",
+        "img": "images/PBeast.png",
+        "codes": "pbeast"
+    },
+    {
+        "name": "Pteradon",
+        "type": "toggle",
+        "img": "images/Pteradon.png",
+        "codes": "pteradon"
+    },
+    {
+        "name": "Dorako",
+        "type": "toggle",
+        "img": "images/Dorako.png",
+        "codes": "dorako, light"
+    },
+    {
+        "name": "P.Dragon",
+        "type": "toggle",
+        "img": "images/PDragon.png",
+        "codes": "pdragon, d3key"
+    },
+    {
+        "name": "Youno",
+        "type": "toggle",
+        "img": "images/Youno.png",
+        "codes": "youno"
+    },
+    {
+        "name": "Sibaloon",
+        "type": "toggle",
+        "img": "images/Sibaloon.png",
+        "codes": "sibaloon"
+    },
+    {
+        "name": "P.Animal",
+        "type": "toggle",
+        "img": "images/PAnimal.png",
+        "codes": "panimal"
+    },
+    {
+        "name": "Unagi",
+        "type": "toggle",
+        "img": "images/Unagi.png",
+        "codes": "unagi"
+    },
+    {
+        "name": "Elekong",
+        "type": "toggle",
+        "img": "images/Elekong.png",
+        "codes": "elekong"
+    },
+    {
+        "name": "Youni",
+        "type": "toggle",
+        "img": "images/Youni.png",
+        "codes": "youni, dig"
+    },
+    {
+        "name": "SeaWing",
+        "type": "toggle",
+        "img": "images/SeaWing.png",
+        "codes": "SeaWing, d4key"
+    },
+    {
+        "name": "KameKing",
+        "type": "toggle",
+        "img": "images/KameKing.png",
+        "codes": "kameking, d5key"
+    },
+    {
+        "name": "MarinGon",
+        "type": "toggle",
+        "img": "images/MarinGon.png",
+        "codes": "maringon"
+    },
+    {
+        "name": "FireKong",
+        "type": "toggle",
+        "img": "images/FireKong.png",
+        "codes": "firekong, manual"
+    },
+
+    //Bomb Types
+    {
+        "name": "Sensor",
+        "type": "toggle",
+        "img": "images/Sensor.png",
+        "codes": "sensor, mine"
+    },
+    {
+        "name": "Rain Drop",
+        "type": "toggle",
+        "img": "images/Rain Drop.png",
+        "codes": "raindrop, aqua"
+    },
+    {
+        "name": "Transistor",
+        "type": "toggle",
+        "img": "images/Transistor.png",
+        "codes": "trans, rc"
+    },
+    {
+        "name": "Balloon",
+        "type": "toggle",
+        "img": "images/Balloon.png",
+        "codes": "balloon, hold"
+    },
+    {
+        "name": "Hammer",
+        "type": "toggle",
+        "img": "images/Hammer.png",
+        "codes": "hammer, power"
+    },
+
+
+    //Trade Quest Items
+    {
+        "name": "Ring",
+        "type": "toggle",
+        "img": "images/Ring.png",
+        "codes": "ring"
+    },
+    {
+        "name": "Camera",
+        "type": "toggle",
+        "img": "images/Camera.png",
+        "codes": "camera"
+    },
+    {
+        "name": "Photo",
+        "type": "toggle",
+        "img": "images/Photo.png",
+        "codes": "photo"
+    },
+    {
+        "name": "Fish Hook",
+        "type": "toggle",
+        "img": "images/Fish Hook.png",
+        "codes": "fishhook"
+    },
+    {
+        "name": "Disinfectant",
+        "type": "toggle",
+        "img": "images/Disinfectant.png",
+        "codes": "disinfectant"
+    },
+    {
+        "name": "Flour",
+        "type": "toggle",
+        "img": "images/Flour.png",
+        "codes": "flour"
+    },
+    {
+        "name": "Bread",
+        "type": "toggle",
+        "img": "images/Bread.png",
+        "codes": "bread"
+    },
+    {
+        "name": "Egg",
+        "type": "toggle",
+        "img": "images/Egg.png",
+        "codes": "egg"
+    },
+    {
+        "name": "Step Counter",
+        "type": "toggle",
+        "img": "images/Step Counter.png",
+        "codes": "stepcounter"
+    },
+    {
+        "name": "Teriyaki Beef",
+        "type": "toggle",
+        "img": "images/Teriyaki Beef.png",
+        "codes": "tbeef"
+    },
+
+    //Comics & Medals
+    {
+        "name": "Comic 1",
+        "type": "toggle",
+        "img": "images/Comic 1.png",
+        "codes": "comic1, warp1"
+    },
+    {
+        "name": "Comic 2",
+        "type": "toggle",
+        "img": "images/Comic 2.png",
+        "codes": "comic2, warp2"
+    },
+    {
+        "name": "Comic 3",
+        "type": "toggle",
+        "img": "images/Comic 3.png",
+        "codes": "comic3, warp3"
+    },
+    {
+        "name": "Comic 4",
+        "type": "toggle",
+        "img": "images/Comic 4.png",
+        "codes": "comic4, warp4"
+    },
+    {
+        "name": "Comic 5",
+        "type": "toggle",
+        "img": "images/Comic 5.png",
+        "codes": "comic5, warp5"
+    },
+    {
+        "name": "Bravery",
+        "type": "toggle",
+        "img": "images/Medal of Bravery.png",
+        "codes": "bravery, medal1"
+    },
+    {
+        "name": "Justice",
+        "type": "toggle",
+        "img": "images/Medal of Justice.png",
+        "codes": "justice, medal2"
+    },
+    {
+        "name": "Love",
+        "type": "toggle",
+        "img": "images/Medal of Love.png",
+        "codes": "love, medal3"
+    },
+    {
+        "name": "Friendship",
+        "type": "toggle",
+        "img": "images/Medal of Friendship.png",
+        "codes": "friendship, medal4"
+    },
+
+    //Also fire & Armor
+    {
+        "name": "Fire",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/Fire 2.png",
+                "codes": "fire2"
+            },
+            {
+                "img": "images/Fire 3.png",
+                "codes": "fire3"
+            },
+            {
+                "img": "images/Fire 4.png",
+                "codes": "fire4"
+            },
+            {
+                "img": "images/Fire 5.png",
+                "codes": "fire5"
+            },
+            {
+                "img": "images/Fire 6.png",
+                "codes": "fire6"
+            }
+        ]
+
+
+
+    },
+    {
+        "name": "Armor",
+        "type": "Progressive",
+        "stages": [
+            {
+                "img": "images/Silver Armor.png",
+                "codes": "silver"
+            },
+            {
+                "img": "images/Golden Armor.png",
+                "codes": "gold"
+            }
+        ]
+    },
+    //Dungeon Marking
+    {
+        "name": "Magnet Base Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/Unknown Base.png",
+                "codes": "mag_ent",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Magnet Symbol.png",
+                "codes": "mag_mag",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Pretty Symbol.png",
+                "codes": "mag_pre",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Plasma Symbol.png",
+                "codes": "mag_pla",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Golem Symbol.png",
+                "codes": "mag_gol",
+                "inherit_codes": false
+            }
+        ]
+
+    },
+    {
+        "name": "Pretty Base Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/Unknown Base.png",
+                "codes": "pre_ent",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Magnet Symbol.png",
+                "codes": "pre_mag",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Pretty Symbol.png",
+                "codes": "pre_pre",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Plasma Symbol.png",
+                "codes": "pre_pla",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Golem Symbol.png",
+                "codes": "pre_gol",
+                "inherit_codes": false
+            }
+        ]
+
+    },
+    {
+        "name": "Plasma Base Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/Unknown Base.png",
+                "codes": "pla_ent",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Magnet Symbol.png",
+                "codes": "pla_mag",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Pretty Symbol.png",
+                "codes": "pla_pre",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Plasma Symbol.png",
+                "codes": "pla_pla",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Golem Symbol.png",
+                "codes": "pla_gol",
+                "inherit_codes": false
+            }
+        ]
+
+    },
+    {
+        "name": "Golem Base Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/Unknown Base.png",
+                "codes": "gol_ent",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Magnet Symbol.png",
+                "codes": "gol_mag",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Pretty Symbol.png",
+                "codes": "gol_pre",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Plasma Symbol.png",
+                "codes": "gol_pla",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/Golem Symbol.png",
+                "codes": "gol_gol",
+                "inherit_codes": false
+            }
+        ]
+
+    },
+
+    //Dungeon Clear Flags
+    {
+        "name": "Beat Magnet",
+        "type": "toggle",
+        "img": "images/Magnet Bomber.png",
+        "codes": "magnetclear"
+    },
+    {
+        "name": "Beat Pretty",
+        "type": "toggle",
+        "img": "images/Pretty Bomber.png",
+        "codes": "prettyclear"
+    },
+    {
+        "name": "Beat Plasma",
+        "type": "toggle",
+        "img": "images/Plasma Bomber.png",
+        "codes": "plasmaclear"
+    },
+    {
+        "name": "Beat Golem",
+        "type": "toggle",
+        "img": "images/Golem Bomber.png",
+        "codes": "golemclear"
+    },
+
+    //Dungeon Labels
+    {
+        "name": "Magnet Base",
+        "type": "static",
+        "img": "images/Magnet Symbol.png",
+        "codes": "mag_label"
+    },
+    {
+        "name": "Pretty Base",
+        "type": "static",
+        "img": "images/Pretty Symbol.png",
+        "codes": "pre_label"
+    },
+    {
+        "name": "Plasma Base",
+        "type": "static",
+        "img": "images/Plasma Symbol.png",
+        "codes": "pla_label"
+    },
+    {
+        "name": "Golem Base",
+        "type": "static",
+        "img": "images/Golem Symbol.png",
+        "codes": "gol_label"
+    }
+]

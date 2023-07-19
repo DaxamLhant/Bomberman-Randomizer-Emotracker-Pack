@@ -1,0 +1,1183 @@
+﻿[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "images/Chest Closed.png",
+        "chest_opened_img": "images/Chest Open.png",
+        "color": "#00ff08",
+        "children": [
+            {
+                "name": "Alpha",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 601,
+                        "y": 382
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ring Girl",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ring"
+                        ]
+                    },
+                    {
+                        "name": "Old Cam Man 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Old Cam Man 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "camera"
+                        ]
+                    }
+                ]
+
+            },
+            {
+                "name": "Lake Cabin",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 393,
+                        "y": 344
+                    }
+                ],
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "access_rules": [
+                            "sibaloon"
+                        ]
+                    }
+                ]
+                
+            },
+            {
+                "name": "Arrow Path",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 468,
+                        "y": 289
+                    }
+
+                ],
+                "sections": [
+                    {
+
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beta",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 438,
+                        "y": 237
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Basement Radar",
+                        "item_count": 1
+
+                    },
+                    {
+                        "name": "Shop",
+                        "item_count": 1
+                    }
+                ],
+                "access_rules": [
+                    "$reach_beta"
+                ]
+
+            },
+            {
+                "name": "Delta",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 192,
+                        "y": 278
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shop",
+                        "item_count": 1
+                    }
+                ],
+
+                "access_rules": [
+                    "$reach_delta"
+                ],
+                "children":[
+                    {
+                        "name": "Fisherman",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 120,
+                                "y": 316
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Free Item",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Turn in Hook",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "fishhook"
+                                ]
+                            }
+                        ]
+
+                    },
+                        {
+                            "name": "Stuck Dragon",
+                            "map_locations": [
+                                {
+                                    "map": "Overworld",
+                                    "x": 143,
+                                    "y": 222
+                                }
+                            ],
+                            "access_rules": [
+                                "kaiman,[aqua]",
+                                "throw"
+                            ],
+                            "sections": [
+                                {
+                                    "item_count": 1
+                                }
+                            ]
+                        },
+                    {
+                        "name": "Delta Underground",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 224,
+                                "y": 221
+                            }
+                        ],
+                        "access_rules": [
+                            "push"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Left Ocean",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 15,
+                                "y": 274
+                            }
+                        ],
+                        "access_rules": [
+                            "kaiman, [aqua]"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sick Critter",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 103,
+                                "y": 229
+                            }
+                        ],
+                        "access_rules": [
+                            "disinfectant"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hidden Cave",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 73,
+                                "y": 236
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Light Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "sharkun"
+                                ]
+                            },
+                            {
+                                "name": "Dark Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "sharkun, [dorako]"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+
+            },
+            {
+                "name": "Beach Caged Critter",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 264,
+                        "y": 292
+                    }
+                ],
+                "access_rules": [
+                    "$field_to_beach",
+                    "$reach_delta"
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ]
+            },
+
+
+
+
+            {
+                "name": "Woods",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 617,
+                        "y": 351
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pommy",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Underground Cave",
+                        "item_count": 1,
+                        "access_rules": [
+                            "push"
+                        ]
+
+                    },
+                    {
+                        "name": "Louie",
+                        "item_count": 1,
+                        "access_rules": [
+                            "camera"
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "name": "Snow Caged Critter",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 304,
+                        "y": 181
+                    }
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "access_rules": [
+                    "$reach_epsilon",
+                    "$beach_to_snow"
+                ]
+
+            },
+            {
+                "name": "Epsilon",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 179,
+                        "y": 106
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "shop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bread Woman Free",
+                        "item_count": 1
+
+                    },
+                    {
+                        "name": "Bread Woman Feed",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bread"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "$reach_epsilon"
+                ],
+                "children": [
+                    {
+                        "name": "Ice Flower",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 31,
+                                "y": 114
+                            }
+                        ],
+                        "access_rules": [
+                            "pbeast"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "children": [
+                            {
+                                "name": "Palace",
+                                "map_locations": [
+                                    {
+                                        "map": "Overworld",
+                                        "x": 171,
+                                        "y": 24
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Princess",
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Back Left Guard",
+                                        "item_count": 1
+                                    }
+                                ],
+                                "access_rules": [
+                                    "plasmaclear"
+                                ]
+                            }
+                        ]
+
+                    },
+                    {
+                        "name": "Upsilon",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 245,
+                                "y": 30
+                            }
+                        ],
+                        "access_rules": [
+                            "throw"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hot Spring",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 288,
+                                "y": 133
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Zeta",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 440,
+                        "y": 24
+                    }
+                ],
+                "access_rules": [
+                    "$reach_zeta"
+                ],
+                "sections": [
+                    {
+                        "name": "Stepcounter Man Free Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Million Steps",
+                        "item_count": 1
+                    }
+                ],
+                "children": [
+                    {
+                        "name": "Old Base",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 343,
+                                "y": 68
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ita",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 363,
+                        "y": 176
+                    }
+                ],
+                "access_rules": [
+                    "$reach_zeta"
+                ],
+                "sections": [
+                    {
+                        "name": "shop",
+                        "item_count": 1
+                    }
+                ],
+                "children": [
+                    {
+                        "name": "Omega",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 438,
+                                "y": 188
+                            }
+                        ],
+                        "access_rules": [
+                            "tbeef"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+
+                    },
+                    {
+                        "name": "Desert Cave",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 475,
+                                "y": 167
+                            }
+
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "access_rules": [
+                            "[firekong]",
+                            "[$fire_3]"
+                        ]
+                    },
+                    {
+                        "name": "Desert Oasis",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 417,
+                                "y": 156
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Volcano Shop",
+                        "map_locations": [
+                            {
+                                "map": "Overworld",
+                                "x": 636,
+                                "y": 46
+                            }
+                        ],
+                        "access_rules": [
+                            "sibaloon"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "children": [
+                            {
+                                "name": "Hungry Woman",
+                                "map_locations": [
+                                    {
+                                        "map": "Overworld",
+                                        "x": 524,
+                                        "y": 42
+                                    }
+                                ],
+                                "access_rules": [
+                                    "tbeef"
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "name": "Theta",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 496,
+                        "y": 204
+                    }
+                ],
+                "access_rules": [
+                    "$reach_zeta"
+                ],
+                "sections": [
+                    {
+                        "name": "Theta Shop",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Karabon Master",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Woods Shop",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Magnet Base",
+                "access_rules": [
+                    "$enter_magnet"
+                ],
+                "children": [
+
+                    {
+                        "name": "Breakable Wall 1",
+                        "map_locations": [
+                            {
+                                "map": "Magnet Base",
+                                "x": 704,
+                                "y": 1225
+                            }
+                        ],
+                        "access_rules": [
+                            "push"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "children": [
+                            {
+                                "name": "Center Chest",
+                                "map_locations": [
+                                    {
+                                        "map": "Magnet Base",
+                                        "x": 121,
+                                        "y": 511
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Breakable Wall 2",
+                                "map_locations": [
+                                    {
+                                        "map": "Magnet Base",
+                                        "x": 123,
+                                        "y": 410
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Boss Rewards",
+                                "map_locations": [
+                                    {
+                                        "map": "Magnet Base",
+                                        "x": 123,
+                                        "y": 21
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Boss Rewards",
+                                        "item_count": 2
+                                    },
+                                    {
+                                        "name": "Magnet Bomber",
+                                        "item_count": 0,
+                                        "hosted_item": "magnetclear"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wiseman",
+                        "map_locations": [
+                            {
+                                "map": "Magnet Base",
+                                "x": 608,
+                                "y": 898
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pretty Base",
+                "access_rules": [
+                    "$enter_pretty"
+                ],
+                "children": [
+                    {
+                        "name": "Breakable Center",
+                        "map_locations": [
+                            {
+                                "map": "Pretty Base",
+                                "x": 606,
+                                "y": 833
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Breakable East",
+                        "map_locations": [
+                            {
+                                "map": "Pretty Base",
+                                "x": 1338,
+                                "y": 507
+                            }
+                        ],
+                        "access_rules": [
+                            "push"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wiseman",
+                        "map_locations": [
+                            {
+                                "map": "Pretty Base",
+                                "x": 1337,
+                                "y": 735
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Breakable West",
+                        "map_locations": [
+                            {
+                                "map": "Pretty Base",
+                                "x": 365,
+                                "y": 834
+                            }
+                        ],
+                        "accces_rules": [
+                            "throw",
+                            "push, kick, $fire_4",
+                            "push, rc"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Far North Chest",
+                        "map_locations": [
+                            {
+                                "map": "Pretty Base",
+                                "x": 269,
+                                "y": 81
+                            }
+                        ],
+                        "access_rules": [
+                            "rc",
+                            "kick",
+                            "throw",
+                            "$fire_6,[rc]"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+
+                    },
+                    {
+                        "name": "Boss Rewards",
+                        "map_locations": [
+                            {
+                                "map": "Pretty Base",
+                                "x": 1579,
+                                "y": 347
+                            }
+                        ],
+                        "access_rules": [
+                            "$reach_sid, kaiman, kick"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boss Rewards",
+                                "item_count": 2
+                            },
+                            {
+                                "name": "Pretty Bomber",
+                                "item_count": 0,
+                                "hosted_item": "prettyclear"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Plasma Base",
+                "access_rules": [
+                    "$enter_plasma, push"
+                ],
+                "children": [
+                    {
+                        "name": "Wiseman",
+                        "map_locations": [
+                            {
+                                "map": "Plasma Base",
+                                "x": 850,
+                                "y": 104
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "First Chest",
+                        "map_locations": [
+                            {
+                                "map": "Plasma Base",
+                                "x": 947,
+                                "y": 267
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+
+                    },
+                    {
+                        "name": "Breakable Wall 1",
+                        "map_locations": [
+                            {
+                                "map": "Plasma Base",
+                                "x": 1094,
+                                "y": 43
+                            }
+                        ],
+                        "access_rules": [
+                            "[dorako]"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "children": [
+                            {
+                                "name": "Breakable Wall 2",
+                                "map_locations": [
+                                    {
+                                        "map": "Plasma Base",
+                                        "x": 608,
+                                        "y": 1008
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Breakable Wall 3",
+                                "map_locations": [
+                                    {
+                                        "map": "Plasma Base",
+                                        "x": 1095,
+                                        "y": 1365
+                                    }
+                                ],
+                                "access_rules": [
+                                    "sharkun"
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ],
+                                "children": [
+                                    {
+                                        "name": "Boss Rewards",
+                                        "map_locations": [
+                                            {
+                                                "map": "Plasma Base",
+                                                "x": 1337,
+                                                "y": 1077
+                                            }
+                                        ],
+                                        "sections": [
+                                            {
+                                                "name": "Boss Rewards",
+                                                "item_count": 2
+                                            },
+                                            {
+                                                "name": "Plasma Bomber",
+                                                "item_count": 0,
+                                                "hosted_item": "plasmaclear"
+                                            }
+                                        ],
+                                        "access_rules": [
+                                            "$reach_sid, pdragon, dorako"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Golem Base",
+                "access_rules": [
+                    "$enter_golem"
+                ],
+                "children": [
+                    {
+                        "name": "West Chest",
+                        "map_locations": [
+                            {
+                                "map": "Golem Base",
+                                "x": 25,
+                                "y": 1436
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Breakable 1",
+                        "map_locations": [
+                            {
+                                "map": "Golem Base",
+                                "x": 850,
+                                "y": 40
+                            }
+                        ],
+                        "access_rules": [
+                            "sibaloon, push"
+                        ],
+                        "sections": [
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "children": [
+                            {
+                                "name": "Breakable 2",
+                                "map_locations": [
+                                    {
+                                        "map": "Golem Base",
+                                        "x": 1187,
+                                        "y": 591
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Breakable 3",
+                                "map_locations": [
+                                    {
+                                        "map": "Golem Base",
+                                        "x": 851,
+                                        "y": 1044
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Breakable 4",
+                                "map_locations": [
+                                    {
+                                        "map": "Golem Base",
+                                        "x": 365,
+                                        "y": 1044
+                                    }
+                                ],
+                                "access_rules": [
+                                    "throw"
+                                ],
+                                "sections": [
+                                    {
+                                        "item_count": 1
+                                    }
+                                ],
+                                "children": [
+                                    {
+                                        "name": "Wiseman",
+                                        "map_locations": [
+                                            {
+                                                "map": "Golem Base",
+                                                "x": 607,
+                                                "y": 104
+                                            }
+                                        ],
+                                        "access_rules": [
+                                            "sharkun"
+                                        ],
+                                        "sections": [
+                                            {
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "children": [
+                                            {
+                                                "name": "West of Wiseman",
+                                                "map_locations": [
+                                                    {
+                                                        "map": "Golem Base",
+                                                        "x": 26,
+                                                        "y": 103
+                                                    }
+                                                ],
+                                                "sections": [
+                                                    {
+                                                        "item_count": 1
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Breakable 5",
+                                                "map_locations": [
+                                                    {
+                                                        "map": "Golem Base",
+                                                        "x": 365,
+                                                        "y": 658
+                                                    }
+                                                ],
+                                                "sections": [
+                                                    {
+                                                        "item_count": 1
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Boss Rewards",
+                                                "map_locations": [
+                                                    {
+                                                        "map": "Golem Base",
+                                                        "x": 607,
+                                                        "y": 717
+                                                    }
+                                                ],
+                                                "access_rules": [
+                                                    "$reach_sid, youni, unagi"
+                                                ],
+                                                "sections": [
+                                                    {
+                                                        "name": "Boss Rewards",
+                                                        "item_count": 2
+                                                    },
+                                                    {
+                                                        "name": "Golem Bomber",
+                                                        "item_count": 0,
+                                                        "hosted_item": "golemclear"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Fantasy",
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 556,
+                        "y": 204
+                    }
+                ],
+                "access_rules": [
+                    "medal1, medal2, medal3, medal4, youni, kameking, push"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "throw"
+                        ]
+                    },
+                    {
+                        "name": "Chest 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "[ceedrun], sibaloon"
+                        ]
+                    },
+                    {
+                        "name": "Chest 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "[ceedrun], kick, sibaloon",
+                            "[ceedrun], throw, sibaloon"
+
+                        ]
+                    },
+                    {
+                        "name": "Chest 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "[ceedrun], kick, sibaloon, $fire_3",
+                            "[ceedrun], throw, sibaloon"
+                        ]
+                    },
+                    {
+                        "name": "Chest 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "[ceedrun], kick, sibaloon, [throw]"
+                        ]
+                    },
+                    {
+                        "name": "Chest 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "[ceedrun], sibaloon, throw"
+                        ]
+                    },
+                    {
+                        "name": "Chest 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "[ceedrun], sibaloon, kick"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

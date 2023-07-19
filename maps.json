@@ -1,0 +1,32 @@
+﻿[
+    {
+        "name": "Overworld",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/World Map.png"
+    },
+    {
+        "name": "Magnet Base",
+        "location_size": 32,
+        "location_border_thickness": 2,
+        "img": "images/Magnet Base.png"
+    },
+    {
+        "name": "Pretty Base",
+        "location_size": 32,
+        "location_border_thickness": 2,
+        "img": "images/Pretty Base.png"
+    },
+    {
+        "name": "Plasma Base",
+        "location_size": 32,
+        "location_border_thickness": 2,
+        "img": "images/Plasma Base.png"
+    },
+    {
+        "name": "Golem Base",
+        "location_size": 32,
+        "location_border_thickness": 2,
+        "img": "images/Golem Base.png"
+    }
+]

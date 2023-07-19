@@ -1,0 +1,149 @@
+﻿{
+    "disabled_image_filter": "grayscale, dim",
+    "allow_resize": false,
+    "map_enabled": true,
+    "layouts": {
+        "shared_item_grid": {
+            "type": "array",
+            "content": [
+
+                //Karabons & Fire
+                {
+                    "type": "itemgrid",
+                    "v_alignment": "stretch",
+                    "h_alignment": "stretch",
+                    "item_size": 40,
+                    "item_margin": "5,5,2,2",
+                    "rows": [
+                        [ "fire2", "ceedrun", "elifan", "pfangs", "sharkun" ],
+                        [ "thliger", "kaiman", "twindrag", "pnucklz", "psea" ],
+                        [ "toughguy", "pbeast", "pteradon", "dorako", "pdragon" ],
+                        [ "youno", "sibaloon", "panimal", "unagi", "elekong" ],
+                        [ "youni", "seawing", "kameking", "maringon", "firekong" ],
+                        [ "sensor", "raindrop", "trans", "balloon", "hammer" ],
+                        [ "camera", "ring", "photo", "fishhook", "disinfectant" ],
+                        [ "flour", "bread", "egg", "stepcounter", "tbeef" ],
+                        [ "comic1", "comic2", "comic3", "comic4", "comic5" ],
+                        [ "medal1", "medal2", "medal3", "medal4" ]
+                    ]
+                }
+            ]
+
+        },
+        "tracker_default": {
+            "type": "container",
+            //"width": 325,
+            //"height": 400,
+            "background": "#333",
+            "content": [
+                {
+                    "type": "dock",
+                    "dropshadow": true,
+                    "content": [
+                        {
+                            "type": "dock",
+                            "dock": "left",
+                            "v_alignment": "stretch",
+                            "margin": "0,0,3,0",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Karabons and Items",
+                                    "dock": "top",
+                                    "content": {
+                                        "type": "layout",
+                                        "margin": 0,
+                                        "key": "shared_item_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Base Locations",
+                                    "content": {
+                                        "type": "itemgrid",
+                                        "h_alignment": "left",
+                                        "item_size": 40,
+                                        "margin": "0,5,0,0",
+                                        "item_margin": "5,0,5,0",
+                                        "rows": [
+                                            [ "mag_label", "mag_ent", "magnetclear" ],
+                                            [ "pre_label", "pre_ent", "prettyclear" ],
+                                            [ "pla_label", "pla_ent", "plasmaclear" ],
+                                            [ "gol_label", "gol_ent", "golemclear" ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dock",
+                            "v_alignment": "top",
+                            "h_alignment": "left",
+                            "margin": "0,0,0,0",
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "dock": "top",
+                                    "tabs": [
+                                        {
+                                            "title": "Overworld",
+                                            "icon": "images/Pommy.png",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Overworld"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Magnet Base",
+                                            "icon": "images/Magnet Bomber.png",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Magnet Base"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Pretty Base",
+                                            "icon": "images/Pretty Bomber.png",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Pretty Base"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Plasma Base",
+                                            "icon": "images/Plasma Bomber.png",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Plasma Base"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Golem Base",
+                                            "icon": "images/Golem Bomber.png",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Golem Base"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

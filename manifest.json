@@ -1,0 +1,21 @@
+﻿{
+    "name": "Bomberman Tournament Randomizer",
+    "game_name": "Bomberman Tournament Randomizer",
+    "game_variant": "Open Mode",
+    "package_version": "0.1.0.0",
+    "layout_engine_version": "1.0",
+    "package_uid": "btr_items_and_map_daxamlhant",
+    "author": "Daxam Lhant",
+
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker"
+        },
+        "items_only": {
+            "display_name": "Items Only"
+        },
+        "condensed_items_only": {
+            "display_name":  "Condensed Items Only"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿{
+    "type": "dock",
+    "dropshadow": true,
+    "background": "#333",
+    "content": [
+
+        //Everything
+        {
+            "type": "itemgrid",
+            "v_alignment": "stretch",
+            "h_alignment": "stretch",
+            "item_size": 40,
+            "item_margin": "5,5",
+            "rows": [
+                [ "fire2", "ceedrun", "elifan", "pfangs", "sharkun" ],
+                [ "thliger", "kaiman", "twindrag", "pnucklz", "psea" ],
+                [ "toughguy", "pbeast", "pteradon", "dorako", "pdragon" ],
+                [ "youno", "sibaloon", "panimal", "unagi", "elekong" ],
+                [ "youni", "seawing", "kameking", "maringon", "firekong" ],
+                [ "sensor", "raindrop", "trans", "balloon", "hammer" ],
+                [ "camera", "ring", "photo", "fishhook", "disinfectant" ],
+                [ "flour", "bread", "egg", "stepcounter", "tbeef" ],
+                [ "comic1", "comic2", "comic3", "comic4", "comic5" ],
+                [ "medal1", "medal2", "medal3", "medal4" ]
+            ]
+        }
+
+    ]
+
+}
